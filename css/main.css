@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'headerfont';
+    src: url(../font/insane.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'body';
+    src: url(../font/aleo.otf) format('opentype');
+}
+@font-face {
+    font-family: 'link';
+    src: url(../font/oldtown.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'header';
+    src: url(../font/future.ttf) format('truetype');
+}
+
 html {
     box-sizing: border-box;
 }
@@ -34,6 +51,13 @@ nav ul li {
     background-color: #0e5813;
     margin: 2%;
     border-radius: 10px;
+    font-family: 'header';
+    letter-spacing: 0.5em;
+
+}
+
+nav ul li:hover {
+    background-color: #e7e7e7;
 }
 
 nav ul li a {
@@ -45,6 +69,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #0e5813;
     background-color: #e7e7e7;
-    padding: 3% 44%;
     border-radius: 10px;
+    padding: 3% 20%;
 }
