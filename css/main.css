@@ -1,0 +1,6 @@
+body {
+    background-image: url('../img/mobile-back.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
