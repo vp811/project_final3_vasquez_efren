@@ -4,3 +4,12 @@ body {
     background-position: left;
     background-attachment: fixed;
 }
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 90%;
+    margin-top: 20%;
+}
