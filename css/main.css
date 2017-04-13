@@ -107,3 +107,8 @@ a {
 footer p {
     padding-top: 15%;
 }
+
+footer img {
+    width: 60%;
+    text-align: center;
+}
