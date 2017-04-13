@@ -99,9 +99,14 @@ footer {
     padding: 18% 0%;
 }
 
+footer nav {
+    padding-top: 5%;
+}
+
 footer p,
 a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 footer p {
