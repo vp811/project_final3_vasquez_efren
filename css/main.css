@@ -91,3 +91,19 @@ nav ul li a:hover {
     padding: 3% 0%;
     font-family: 'body', sans-serif;
 }
+
+footer {
+    background-color: #0e5813;
+    text-align: center;
+    margin-top: -5%;
+    padding: 18% 0%;
+}
+
+footer p,
+a {
+    color: #ffffff;
+}
+
+footer p {
+    padding-top: 15%;
+}
