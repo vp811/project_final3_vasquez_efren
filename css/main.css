@@ -168,6 +168,7 @@ footer img {
 #menu {
     background-color: #0e5813;
     text-align: center;
+    z-index: 1;
 }
 
 #menu ul li {
@@ -183,14 +184,56 @@ footer img {
     font-family: 'headerfont', sans-serif;
     text-align: center;
     text-decoration: underline;
+    margin-top: 25%;
 }
 
 #contact h3 {
     font-family: 'headerfont', sans-serif;
 }
+
 #contact p {
     padding-left: 7%;
 }
+
 #alien {
     font-family: 'alien', sans-serif;
+}
+
+#contact-logo {
+    position: relative;
+    text-align: center;
+    padding-right: 20%;
+}
+
+#contact-logo-nonactive {
+    position: absolute;
+    width: 25%;
+}
+
+#contact-logo-active {
+    width: 25%;
+    position: absolute;
+}
+
+@keyframes contact-logo-animation {
+0% {
+opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#contact-logo img#contact-logo-active {
+animation-name: contact-logo-animation;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction: alternate;
 }
