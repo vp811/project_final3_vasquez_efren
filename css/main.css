@@ -30,11 +30,12 @@ html {
     box-sizing: inherit;
 }
 
-#main-body {
+#home {
     background-image: url('../img/mobile-back.jpg');
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: fixed;
+    padding-bottom: 25%;
 }
 
 header {
@@ -81,7 +82,6 @@ nav ul li a:hover {
     background-color: white;
     border: 10px solid transparent;
     border-image: url('../img/sand.png') 27;
-    margin-top: 50%;
     padding: 10% 5%;
 }
 
