@@ -15,6 +15,11 @@
     src: url(../font/future.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'alien';
+    src: url(../font/alien.ttf) format('truetype');
+}
+
 html {
     box-sizing: border-box;
 }
@@ -161,7 +166,7 @@ footer img {
 }
 
 #menu {
-    background-color: #e7e7e7;
+    background-color: #0e5813;
     text-align: center;
 }
 
@@ -170,5 +175,22 @@ footer img {
 }
 
 #menu ul li a {
-    color: #0e5813;
+    color: #ffffff;
+}
+
+/* ----------------------------------------------Contact Page ----------------------- */
+#contact h2 {
+    font-family: 'headerfont', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#contact h3 {
+    font-family: 'headerfont', sans-serif;
+}
+#contact p {
+    padding-left: 7%;
+}
+#alien {
+    font-family: 'alien', sans-serif;
 }
