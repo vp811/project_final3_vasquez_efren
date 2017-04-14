@@ -255,12 +255,19 @@ footer img {
     text-decoration: line-through;
 }
 
-/* ----------------------------------------------Events Page ----------------------- */
-#events {
+/* ----------------------------------------------Events/Awards/Promo Page ----------------------- */
+#events,
+#awards,
+#promos {
     text-align: center;
+    border: 5px solid transparent;
+    border-image: url('../img/sand.png') 27;
+    padding: 0% 4%;
 }
 
-#events h2 {
+#events h2,
+#awards h2,
+#promos h2 {
     padding: 0;
     font-family: 'headerfont', sans-serif;
     text-decoration: underline;
@@ -270,7 +277,9 @@ hr {
     width: 80%;
 }
 
-#events img {
+#events img,
+#awards img,
+#promos img {
     width: 45%;
     border: 5px solid transparent;
     border-image: url('../img/sand.png') 27;
@@ -278,7 +287,9 @@ hr {
     margin-top: 10%;
 }
 
-#events p {
+#events p,
+#awards p,
+#promos p {
     text-align: center;
     font-family: 'body', sans-serif;
 }
@@ -288,23 +299,6 @@ hr {
 }
 
 /* ----------------------------------------------Awards Page ----------------------- */
-#awards {
-    text-align: center;
-}
-
-#awards h2 {
-    padding: 0;
-    font-family: 'headerfont', sans-serif;
-    text-decoration: underline;
-}
-
-#awards img {
-    width: 45%;
-    border: 5px solid transparent;
-    border-image: url('../img/sand.png') 27;
-    box-shadow: 0 0 30px;
-    margin-top: 10%;
-}
 
 #awards ul {
     list-style-type: none;
@@ -314,4 +308,9 @@ hr {
 
 #awards ul li {
     padding-bottom: 10%;
+}
+
+/* ----------------------------------------------Promo Page ----------------------- */
+#promo {
+    text-align: center;
 }
