@@ -258,19 +258,34 @@ footer img {
 /* ----------------------------------------------Events/Awards/Promo Page ----------------------- */
 #events,
 #awards,
-#promos {
+#promos,
+#menu-page {
     text-align: center;
     border: 5px solid transparent;
     border-image: url('../img/sand.png') 27;
     padding: 0% 4%;
 }
 
+#menu-page {
+    padding-bottom: 20%;
+}
 #events h2,
 #awards h2,
-#promos h2 {
+#promos h2,
+#menu-page h2 {
     padding: 0;
     font-family: 'headerfont', sans-serif;
     text-decoration: underline;
+}
+
+#menu-page h3 {
+    font-family: 'headerfont', sans-serif;
+    text-decoration: underline;
+}
+
+#menu-page h4,
+#menu-page p {
+    font-family: 'body', sans-serif;
 }
 
 hr {
@@ -289,7 +304,8 @@ hr {
 
 #events p,
 #awards p,
-#promos p {
+#promos p,
+#menu-page p {
     text-align: center;
     font-family: 'body', sans-serif;
 }
