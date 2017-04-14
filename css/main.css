@@ -256,9 +256,33 @@ footer img {
 }
 
 /* ----------------------------------------------Events Page ----------------------- */
+#events {
+    text-align: center;
+}
+
 #events h2 {
     padding: 0;
     font-family: 'headerfont', sans-serif;
-    text-align: center;
+    text-decoration: underline;
+}
 
+hr {
+    width: 80%;
+}
+
+#events img {
+    width: 45%;
+    border: 5px solid transparent;
+    border-image: url('../img/sand.png') 27;
+    box-shadow: 0 0 30px;
+    margin-top: 10%;
+}
+
+#events p {
+    text-align: center;
+    font-family: 'body', sans-serif;
+}
+
+#events p:last-child {
+    padding-bottom: 25%;
 }
