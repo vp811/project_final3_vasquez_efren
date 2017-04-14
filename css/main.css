@@ -90,6 +90,7 @@ nav ul li a:hover {
     font-size: 1.7em;
     text-align: center;
     text-decoration: underline;
+    margin-top: 30%;
 }
 
 #about p {
@@ -159,6 +160,7 @@ footer img {
     text-align: right;
     position: absolute;
     background-color: #0e5813;
+    width: 100%;
 }
 
 #hamburger {
@@ -189,10 +191,12 @@ footer img {
 
 #contact h3 {
     font-family: 'headerfont', sans-serif;
+    text-align: center;
+    text-decoration: underline;
 }
 
 #contact p {
-    padding-left: 7%;
+    text-align: center;
 }
 
 #alien {
@@ -216,24 +220,31 @@ footer img {
 }
 
 @keyframes contact-logo-animation {
-0% {
-opacity:1;
-}
-45% {
-opacity:1;
-}
-55% {
-opacity:0;
-}
-100% {
-opacity:0;
-}
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 #contact-logo img#contact-logo-active {
-animation-name: contact-logo-animation;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 3s;
-animation-direction: alternate;
+    animation-name: contact-logo-animation;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+#banner {
+    background-color: #0e5813;
+}
+#banner img {
+    width: 100%;
 }
