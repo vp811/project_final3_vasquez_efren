@@ -193,6 +193,7 @@ footer img {
     font-family: 'headerfont', sans-serif;
     text-align: center;
     text-decoration: underline;
+    padding-top: 10%;
 }
 
 #contact p {
@@ -245,6 +246,11 @@ footer img {
 #banner {
     background-color: #0e5813;
 }
+
 #banner img {
     width: 100%;
+}
+
+#strike-through {
+    text-decoration: line-through;
 }
