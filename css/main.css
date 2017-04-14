@@ -300,17 +300,14 @@ hr {
 
 /* ----------------------------------------------Awards Page ----------------------- */
 
-#awards ul {
+#awards ul,
+#promos ul {
     list-style-type: none;
     font-family: 'body', sans-serif;
     padding: 0;
 }
 
-#awards ul li {
+#awards ul li,
+#promos ul li {
     padding-bottom: 10%;
-}
-
-/* ----------------------------------------------Promo Page ----------------------- */
-#promo {
-    text-align: center;
 }
