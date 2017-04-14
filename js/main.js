@@ -1,1 +1,3 @@
-42 === "42";
+$(document).ready(function() {
+    $('.menu-link').bigSlide();
+});

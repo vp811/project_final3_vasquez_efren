@@ -25,7 +25,7 @@ html {
     box-sizing: inherit;
 }
 
-body {
+#main-body {
     background-image: url('../img/mobile-back.jpg');
     background-repeat: no-repeat;
     background-position: left;
@@ -116,4 +116,59 @@ footer p {
 footer img {
     width: 60%;
     text-align: center;
+}
+
+/* ----------------------------------------------contact Page ----------------------- */
+
+#contact {
+    background-color: white;
+    border: 10px solid transparent;
+    border-image: url('../img/sand.png') 27;
+    padding: 10% 5%;
+}
+
+#logo-back {
+    background-color: white;
+    text-align: center;
+    background-image: url('../img/sand.png');
+}
+
+#logo3 {
+    width: 60%;
+    padding: 10% 0%;
+}
+
+
+/* ----------------------------------------------Hamburger Menu/jQuery Menu ----------------------- */
+.panel {
+    position: fixed;
+    left: -15.625em; /*right or left and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
+.wrap {
+    position: relative;
+}
+
+#main-pages {
+    text-align: right;
+    position: absolute;
+    background-color: #0e5813;
+}
+
+#hamburger {
+    width: 10%;
+}
+
+#menu {
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
+#menu ul li {
+    background-color: transparent;
+}
+
+#menu ul li a {
+    color: #0e5813;
 }
