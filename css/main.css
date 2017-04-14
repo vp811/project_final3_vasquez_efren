@@ -286,3 +286,32 @@ hr {
 #events p:last-child {
     padding-bottom: 25%;
 }
+
+/* ----------------------------------------------Awards Page ----------------------- */
+#awards {
+    text-align: center;
+}
+
+#awards h2 {
+    padding: 0;
+    font-family: 'headerfont', sans-serif;
+    text-decoration: underline;
+}
+
+#awards img {
+    width: 45%;
+    border: 5px solid transparent;
+    border-image: url('../img/sand.png') 27;
+    box-shadow: 0 0 30px;
+    margin-top: 10%;
+}
+
+#awards ul {
+    list-style-type: none;
+    font-family: 'body', sans-serif;
+    padding: 0;
+}
+
+#awards ul li {
+    padding-bottom: 10%;
+}
