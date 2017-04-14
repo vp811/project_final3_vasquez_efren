@@ -166,7 +166,7 @@ footer img {
 }
 
 #menu {
-    background-color: #0e5813;
+    background-color: rgba(14, 88, 19, 0.95);
     text-align: center;
     z-index: 1;
 }
