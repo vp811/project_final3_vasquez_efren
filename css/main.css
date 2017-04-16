@@ -78,7 +78,8 @@ nav ul li a:hover {
     padding: 3% 20%;
 }
 
-#home-logo {
+#home-logo,
+.inside-images-large-screens {
     display: none;
 }
 
@@ -382,7 +383,6 @@ hr {
 
 /* ----------------------------------------------Screens Larger Than 900px ----------------------- */
 @media only screen and (min-width: 900px ) {
-
     #mobile-img {
         display: none;
         margin-top: 0;
@@ -398,7 +398,6 @@ hr {
         background-color: #0e5813;
         padding: 2% 0;
     }
-
     #home nav ul li {
         margin: 0;
         display: inline;
@@ -425,7 +424,77 @@ hr {
         max-width: 450px;
         padding-bottom: 10%;
     }
+    main {
+        border-top: 75px solid transparent;
+        border-image: url('../img/sand.png') 100;
+    }
+    #contact-logo {
+        display: none;
+    }
     #about {
+        padding: 5%;
+        box-shadow: 0 -10px 20px, 0 10px 10px;
+        float: right;
+    }
+    #about h2 {
+        margin-top: 0%;
+    }
+    #about-home{
+        width: 40%;
+        float: right;
+    }
+    .inside-images-large-screens {
+        border: 5px solid transparent;
+        border-image: url('../img/sand.png') 27;
+        box-shadow: 0 -10px 20px, 0 10px 10px;
+        width: 100%;
+        display: inline;
+
+    }
+    #images-home{
+        float: left;
+        width: 50%;
+    }
+    footer {
         clear: both;
+        padding: 12% 0 2% 0;
+        text-align: left;
+    }
+    footer img {
+        display: inline;
+        float: left;
+        width: 35%;
+        margin-left: 10%;
+    }
+    footer nav {
+        padding-top: 0;
+        width: 40%;
+        float: right;
+    }
+    footer nav ul {
+        margin: 0;
+        background-color: #0e5813;
+        padding: 2% 0;
+    }
+    footer nav ul li {
+        margin: 0;
+        display: block;
+        padding: 1% 2%;
+        font-size: 1em;
+        white-space: nowrap;
+        width: 50%;
+    }
+    footer nav ul li:hover {
+        background-color: #e7e7e7;
+    }
+    footer nav ul li a:hover {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    footer p {
+        padding-top: 5%;
+        clear: both;
+        text-align: center;
     }
 }
