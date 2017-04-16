@@ -83,6 +83,10 @@ nav ul li a:hover {
     display: none;
 }
 
+#main-page-logo {
+    display: none;
+}
+
 #about {
     background-color: white;
     border: 10px solid transparent;
@@ -106,7 +110,6 @@ nav ul li a:hover {
 footer {
     background-color: #0e5813;
     text-align: center;
-    margin-top: -5%;
     padding: 18% 0%;
 }
 
@@ -149,7 +152,18 @@ footer img {
     padding: 10% 0%;
 }
 
+#alderaan {
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
 
+#social-media {
+    text-align: center;
+}
+
+#social-media img {
+    width: 20%;
+}
 /* ----------------------------------------------Hamburger Menu/jQuery Menu ----------------------- */
 .panel {
     position: fixed;
@@ -191,7 +205,7 @@ footer img {
     font-family: 'headerfont', sans-serif;
     text-align: center;
     text-decoration: underline;
-    margin-top: 25%;
+    margin-top: 30%;
 }
 
 #contact h3 {
@@ -205,8 +219,12 @@ footer img {
     text-align: center;
 }
 
-#alien {
+.alien {
     font-family: 'alien', sans-serif;
+}
+
+.body-font {
+    font-family: 'body', sans-serif;
 }
 
 #contact-logo {
@@ -424,10 +442,6 @@ hr {
         max-width: 450px;
         padding-bottom: 10%;
     }
-    main {
-        border-top: 75px solid transparent;
-        border-image: url('../img/sand.png') 100;
-    }
     .large {
         display: none;
     }
@@ -459,6 +473,7 @@ hr {
         clear: both;
         padding: 12% 0 2% 0;
         text-align: left;
+        margin-top: 0;
     }
     footer img {
         display: inline;
@@ -496,5 +511,42 @@ hr {
         padding-top: 5%;
         clear: both;
         text-align: center;
+    }
+
+    /* ----------------------- Contact page-------------- */
+    #main-page-logo {
+        width: 25%;
+        float: left;
+        padding: 2% 2% 2%;
+        display: inline;
+    }
+    #hamburger {
+        width: 5%;
+        margin: 2% 5% 0;
+    }
+    #main-pages {
+        background: -webkit-linear-gradient(left, #e7e7e7 37%, #0e5813 79%);
+    }
+    #contact {
+        padding: 1%;
+        border: none;
+    }
+    #contact-logo {
+        display: none;
+    }
+    #contact h2 {
+        margin-top: 0;
+        font-size: 1.8em;
+    }
+    #contact h3 {
+        padding-top: 2%;
+    }
+    #contact-left {
+        width: 50%;
+        float: left;
+    }
+    #contact-right {
+        width: 50%;
+        float: right;
     }
 }
