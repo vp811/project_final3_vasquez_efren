@@ -379,4 +379,30 @@ hr {
 /* ----------------------------------------------Screens Larger Than 900px ----------------------- */
 @media only screen and (min-width: 900px ) {
 
+    header img {
+        display: none;
+        margin-top: 0;
+    }
+    #home {
+        padding-bottom: 0;
+        background-size: cover;
+    }
+    #home nav ul {
+        margin: 0;
+        background-color: #0e5813;
+    }
+
+    #home nav ul li {
+        margin: 0;
+        display: inline;
+        padding-bottom: 0;
+        background-color: transparent;
+        padding-right: 4%;
+    }
+    #home nav ul li a:hover{
+        margin: 0;
+        padding: 0;
+    }
+
+
 }
