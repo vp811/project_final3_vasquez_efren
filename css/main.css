@@ -428,7 +428,7 @@ hr {
         border-top: 75px solid transparent;
         border-image: url('../img/sand.png') 100;
     }
-    #contact-logo {
+    .large {
         display: none;
     }
     #about {
