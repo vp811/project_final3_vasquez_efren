@@ -63,6 +63,7 @@ nav ul li {
 
 nav ul li:hover {
     background-color: #e7e7e7;
+    color: #0e5813;
 }
 
 nav ul li a {
@@ -75,7 +76,7 @@ nav ul li a:hover {
     color: #0e5813;
     background-color: #e7e7e7;
     border-radius: 10px;
-    padding: 3% 20%;
+    padding: 3% 5%;
 }
 
 #home-logo,
@@ -432,7 +433,9 @@ hr {
         padding: 0;
         border-radius: 0;
     }
-
+    #menu ul li a:hover {
+        color: #0e5813;
+    }
     #home-logo {
         display: block;
         margin-top: 0;
