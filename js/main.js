@@ -20,4 +20,8 @@ $(document).ready(function() {
     $( "#menu-click4" ).click(function() {
     $( ".sides" ).slideToggle( "slow" );
     });
+
+    $('.animsition').animsition();
+
+
 });
