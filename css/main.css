@@ -638,4 +638,21 @@ hr {
     .arrow-hide {
         display: inline;
     }
+
+    #menu-page img {
+        width: 20%;
+        border: 0;
+        box-shadow: 0 0 0;
+    }
+
+    #bb8 img {
+        width: 15%;
+        margin-top: 20%;
+        display: inline;
+    }
+
+    #bb8 img:first-child {
+        width: 9%;
+        padding-bottom: 1%;
+    }
 }
