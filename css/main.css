@@ -642,13 +642,17 @@ hr {
     #menu-page img {
         width: 20%;
         border: 0;
-        box-shadow: 0 0 0;
+        border: 5px solid transparent;
+        border-image: url('../img/sand.png') 27;
+        box-shadow: 0 0 30px;
     }
 
     #bb8 img {
         width: 15%;
         margin-top: 20%;
         display: inline;
+        border: none;
+        box-shadow: 0 0 0;
     }
 
     #bb8 img:first-child {
