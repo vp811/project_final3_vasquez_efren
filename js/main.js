@@ -1,6 +1,8 @@
 $(document).ready(function() {
+    /* ------Menu jQuery Plugin----- */
     $('.menu-link').bigSlide();
 
+    /* ------Menu page/Show more click */
     $( "#menu-click" ).click(function() {
     $( ".app" ).slideToggle( "slow" );
     });
@@ -21,7 +23,7 @@ $(document).ready(function() {
     $( ".sides" ).slideToggle( "slow" );
     });
 
+    /* --------Page transition jQuery Plugin */
     $('.animsition').animsition();
-
 
 });
