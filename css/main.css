@@ -591,4 +591,28 @@ hr {
         display: inline;
     }
 
+    /* ----------------------- Awards page-------------- */
+    #awards {
+        border: 0;
+    }
+    #awards h2 {
+        font-size: 1.8em;
+    }
+
+    #awards img {
+        width: 40%;
+        border: 0;
+        box-shadow: 0 0 0;
+        float: left;
+        padding: 0;
+    }
+
+    #awards ul {
+        text-align: center;
+        margin: 25%;
+    }
+    #awards ul li {
+        padding: 8% 0 0 0;
+        font-size: 1.3em;
+    }
 }
