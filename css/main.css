@@ -338,6 +338,9 @@ hr {
     padding-bottom: 25%;
 }
 
+.promotion-img img {
+    display: none;
+}
 /* ----------------------------------------------Awards Page ----------------------- */
 
 #awards ul,
@@ -552,4 +555,40 @@ hr {
         width: 50%;
         float: right;
     }
+
+    /* ----------------------- Events page-------------- */
+    #events {
+        border: 0;
+    }
+    #events h2 {
+        font-size: 2.5em;
+    }
+    .coming-events {
+        width: 50%;
+        float: left;
+    }
+
+    /* ----------------------- Events page-------------- */
+    #promos {
+        border: 0;
+    }
+
+    #promos h2 {
+        font-size: 1.8em;
+    }
+    .promotion-img {
+        display: block;
+        float: left;
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .promotion-img li {
+        padding-top: 5%;
+    }
+
+    .promotion-img img {
+        display: inline;
+    }
+
 }
