@@ -76,7 +76,7 @@ nav ul li a:hover {
     color: #0e5813;
     background-color: #e7e7e7;
     border-radius: 10px;
-    padding: 3% 5%;
+    padding: 1% 5%;
 }
 
 #home-logo,
@@ -156,6 +156,7 @@ footer img {
 #alderaan {
     font-family: sans-serif;
     text-decoration: line-through;
+    font-size: 1.5em;
 }
 
 #social-media {
@@ -165,6 +166,7 @@ footer img {
 #social-media img {
     width: 20%;
 }
+
 /* ----------------------------------------------Hamburger Menu/jQuery Menu ----------------------- */
 .panel {
     position: fixed;
@@ -615,4 +617,14 @@ hr {
         padding: 8% 0 0 0;
         font-size: 1.3em;
     }
+
+    /* ----------------------- Menu page-------------- */
+    .app,
+    .entrees,
+    .dessert,
+    .drinks,
+    .sides {
+        display: none;
+    }
+
 }
