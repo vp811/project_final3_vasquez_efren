@@ -343,6 +343,10 @@ hr {
 .promotion-img img {
     display: none;
 }
+
+.arrow-hide {
+    display: none;
+}
 /* ----------------------------------------------Awards Page ----------------------- */
 
 #awards ul,
@@ -619,6 +623,10 @@ hr {
     }
 
     /* ----------------------- Menu page-------------- */
+    #menu h2 {
+        font-size: 1.8em;
+    }
+
     .app,
     .entrees,
     .dessert,
@@ -627,4 +635,7 @@ hr {
         display: none;
     }
 
+    .arrow-hide {
+        display: inline;
+    }
 }
