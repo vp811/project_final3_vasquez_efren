@@ -445,7 +445,7 @@ hr {
         display: inline;
         background-color: transparent;
         padding: 0% 2%;
-        font-size: 1.1em;
+        font-size: .8em;
         white-space: nowrap;
     }
     #home nav ul li:hover {
@@ -541,20 +541,20 @@ hr {
 
     /* ----------------------- Contact page-------------- */
     #main-page-logo {
-        width: 25%;
+        width: 16%;
         float: left;
-        padding: 2% 2% 2%;
+        padding: 1% 1% 0%;
         display: inline;
     }
     #hamburger {
-        width: 5%;
-        margin: 2% 5% 0;
+        width: 4%;
+        margin: 1% 5% 0;
     }
     #main-pages {
         background: -webkit-linear-gradient(left, #e7e7e7 37%, #0e5813 79%);
     }
     #contact {
-        padding: 1%;
+        padding: 1% 20%;
         border: none;
     }
     #contact-logo {
@@ -564,9 +564,7 @@ hr {
         margin-top: 0;
         font-size: 1.8em;
     }
-    #contact h3 {
-        padding-top: 2%;
-    }
+
     #contact-left {
         width: 50%;
         float: left;
@@ -574,6 +572,7 @@ hr {
     #contact-right {
         width: 50%;
         float: right;
+        padding-bottom: 15%;
     }
 
     /* ----------------------- Events page-------------- */
