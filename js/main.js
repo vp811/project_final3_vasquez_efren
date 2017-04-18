@@ -1,9 +1,9 @@
-$(document).ready(function() {
+$(document).ready(function () {
     /* ------Menu jQuery Plugin----- */
     $('.menu-link').bigSlide();
 
     /* ------Menu page/Show more click */
-    $( "#menu-click" ).click(function() {
+    $('#menu-click').click(function () {
     $( ".app" ).slideToggle( "slow" );
     });
 
@@ -27,3 +27,26 @@ $(document).ready(function() {
     $('.animsition').animsition();
 
 });
+
+
+/* --------------JavaScript adding content to page ----------*/
+/* --------------Custom JavaScrip #1------*/
+var hidden = document.getElementById('rebel');
+
+if (hidden){
+    hidden.addEventListener('click', rebelspy);
+}
+function rebelspy() {
+    document.getElementById('rebel').innerHTML = "I see you are a rebel. You should join the rebellion. <img src='img/rebel.png' alt='rebel'>";
+}
+
+/* --------------Custom JavaScrip #2------*/
+var alienText = document.getElementById('alien-text');
+
+if (alienText) {
+    alienText.addEventListener('click', translate);
+}
+
+function translate() {
+    document.getElementById('about-home').style.fontFamily = 'alien';
+}
