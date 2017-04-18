@@ -610,6 +610,10 @@ hr {
         display: inline;
     }
 
+    .coming-events:last-child p {
+        padding-bottom: 10%;
+    }
+
     /* ----------------------- Awards page-------------- */
     #awards {
         border: 0;
