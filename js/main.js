@@ -31,22 +31,22 @@ $(document).ready(function () {
 
 /* --------------JavaScript adding content to page ----------*/
 /* --------------Custom JavaScrip #1------*/
-var hidden = document.getElementById('rebel');
+var hidden = document.getElementById('rebel');  //creates a variable called hidden if the ID rebel shows up on the screen
 
 if (hidden){
-    hidden.addEventListener('click', rebelspy);
+    hidden.addEventListener('click', rebelspy);   //If rebel is on the document, an event listener will be made. When the rebel div is clicked, the rebelspy function will run.
 }
 function rebelspy() {
-    document.getElementById('rebel').innerHTML = "I see you are a rebel. You should join the rebellion. <img src='img/rebel.png' alt='rebel'>";
+    document.getElementById('rebel').innerHTML = "I see you are a rebel. You should join the rebellion. <img src='img/rebel.png' alt='rebel'>"; //Once the div is clicked, this content is added to the page
 }
 
 /* --------------Custom JavaScrip #2------*/
-var alienText = document.getElementById('alien-text');
+var alienText = document.getElementById('alien-text'); //creates a variable called hidden if the ID alien-text shows up on the screen
 
 if (alienText) {
-    alienText.addEventListener('click', translate);
+    alienText.addEventListener('click', translate); //If alien-text is on the document, an event listener will be made. When the alien-text div is clicked, the translate function will run.
 }
 
 function translate() {
-    document.getElementById('about-home').style.fontFamily = 'alien';
+    document.getElementById('about-home').style.fontFamily = 'alien'; //Once the div is clicked, the font will change to the alien font
 }
