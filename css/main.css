@@ -118,6 +118,20 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
+#back-to-top p {
+    clear: both;
+    color: black;
+    text-align: right;
+    font-family: 'body', serif;
+    padding: 1%;
+}
+
+#back-to-top p:hover {
+    color: #0e5813;
+    text-decoration: underline;
+}
+
 footer {
     background-color: #0e5813;
     text-align: center;
