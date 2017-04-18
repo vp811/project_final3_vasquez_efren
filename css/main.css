@@ -372,6 +372,11 @@ hr {
 .arrow-hide {
     display: none;
 }
+
+#darkside {
+    clear: both;
+    width: 20%;
+}
 /* ----------------------------------------------Awards Page ----------------------- */
 
 #awards ul,
