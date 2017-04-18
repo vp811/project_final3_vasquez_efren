@@ -106,10 +106,18 @@ nav ul li a:hover {
 #about-home {
     font-family: 'body', sans-serif;
 }
+
 #about p {
     padding: 3% 0%;
 }
 
+#alien-text {
+    background-color: #0e5813;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 footer {
     background-color: #0e5813;
     text-align: center;
