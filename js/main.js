@@ -2,25 +2,25 @@ $(document).ready(function () {
     /* ------Menu jQuery Plugin----- */
     $('.menu-link').bigSlide();
 
-    /* ------Menu page/Show more click */
+    /* ------Menu page/Show more click ------Custom jQuery*/
     $('#menu-click').click(function () {
-    $( ".app" ).slideToggle( "slow" );
+        $('.app').slideToggle('slow');
     });
 
-    $( "#menu-click1" ).click(function() {
-    $( ".entrees" ).slideToggle( "slow" );
+    $('#menu-click1').click(function () {
+        $('.entrees').slideToggle('slow');
     });
 
-    $( "#menu-click2" ).click(function() {
-    $( ".dessert" ).slideToggle( "slow" );
+    $('#menu-click2').click(function () {
+        $('.dessert').slideToggle('slow');
     });
 
-    $( "#menu-click3" ).click(function() {
-    $( ".drinks" ).slideToggle( "slow" );
+    $('#menu-click3').click(function () {
+        $('.drinks').slideToggle('slow');
     });
 
-    $( "#menu-click4" ).click(function() {
-    $( ".sides" ).slideToggle( "slow" );
+    $('#menu-click4').click(function () {
+        $('.sides').slideToggle('slow');
     });
 
     /* --------Page transition jQuery Plugin */
@@ -33,7 +33,7 @@ $(document).ready(function () {
 /* --------------Custom JavaScrip #1------*/
 var hidden = document.getElementById('rebel');  //creates a variable called hidden if the ID rebel shows up on the screen
 
-if (hidden){
+if (hidden) {
     hidden.addEventListener('click', rebelspy);   //If rebel is on the document, an event listener will be made. When the rebel div is clicked, the rebelspy function will run.
 }
 function rebelspy() {
