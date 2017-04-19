@@ -57,6 +57,6 @@ var darkside = document.getElementById('target');
 if (darkside) {
     darkside.addEventListener('dblclick', welcome);
 }
-function welcome () {
+function welcome() {
     document.getElementById('target').innerHTML = "<img  src='img/target.jpg' alt='target'> <p>You are no Stormtrooper! You pay full price!</p> ";
 }
