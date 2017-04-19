@@ -42,6 +42,10 @@ html {
     white-space: nowrap; /* 1 */
 }
 
+p {
+    line-height: 1.5;
+}
+
 #home {
     background-image: url('../img/mobile-back.jpg');
     background-repeat: no-repeat;
@@ -332,6 +336,7 @@ footer img {
 #menu-page {
     padding-bottom: 20%;
 }
+
 #events h2,
 #awards h2,
 #promos h2,
@@ -346,9 +351,9 @@ footer img {
     text-decoration: underline;
 }
 
-#menu-page h4,
-#menu-page p {
-    font-family: 'body', sans-serif;
+#menu-page h4 {
+    font-family: 'header', sans-serif;
+    font-size: 1.2em;
 }
 
 hr {
@@ -456,6 +461,7 @@ hr {
         border: 5px solid transparent;
         border-image: url('../img/sand.png') 27;
         box-shadow: 0 0 30px;
+        margin-top: 5%;
     }
 
     #events img {
@@ -485,7 +491,7 @@ hr {
         display: inline;
         background-color: transparent;
         padding: 1% 2%;
-        font-size: .8em;
+        font-size: 0.8em;
         white-space: nowrap;
     }
     #home nav ul li:hover {
@@ -514,14 +520,16 @@ hr {
     #about {
         padding: 5%;
         box-shadow: 0 -10px 20px, 0 10px 10px;
-        float: right;
     }
     #about h2 {
         margin-top: 0%;
     }
-    #about-home{
+    #about-home {
         width: 40%;
         float: right;
+    }
+    #main-contanct {
+        padding-top: 0;
     }
     .inside-images-large-screens {
         border: 5px solid transparent;
@@ -531,7 +539,7 @@ hr {
         display: inline;
 
     }
-    #images-home{
+    #images-home {
         float: left;
         width: 50%;
     }
