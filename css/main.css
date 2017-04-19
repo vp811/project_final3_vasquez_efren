@@ -367,7 +367,7 @@ hr {
     border: 5px solid transparent;
     border-image: url('../img/sand.png') 27;
     box-shadow: 0 0 30px;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 #events p,
@@ -394,8 +394,19 @@ hr {
     clear: both;
     width: 20%;
 }
-/* ----------------------------------------------Awards Page ----------------------- */
 
+figure {
+    padding: 5% 0;
+}
+
+figcaption {
+    font-style: italic;
+    padding-top: 2%;
+    font-size: 1.2em;
+    font-family: 'body', sans-serif;
+}
+
+/* ----------------------------------------------Awards Page ----------------------- */
 #awards ul,
 #promos ul {
     list-style-type: none;
@@ -411,10 +422,12 @@ hr {
 #menu-page img {
     display: none;
 }
+
 #rebel {
     font-family: 'body', sans-serif;
     text-align: center;
 }
+
 #rebel img {
     width: 10%;
     display: block;
@@ -429,25 +442,31 @@ hr {
     #home nav ul {
         text-align: center;
     }
+
     #home img {
         width: 50%;
     }
+
     #home nav ul li {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
     }
+
     #about {
         padding: 20% 10%;
     }
+
     footer img {
         width: 40%;
     }
+
     footer nav ul li {
         background-color: transparent;
         padding: 0 5% 0 0;
         margin: 3% 0 0;
     }
+
     footer nav ul li a {
         margin: 10% 0 0 0;
     }
@@ -475,17 +494,20 @@ hr {
         display: none;
         margin-top: 0;
     }
+
     #home {
         padding-bottom: 0;
         background-size: cover;
         background-image: url('../img/large-background.jpg');
         padding-bottom: 30%;
     }
+
     #home nav ul {
         margin: 0;
         background-color: #0e5813;
         padding: 2% 0;
     }
+
     #home nav ul li {
         margin: 0;
         display: inline;
@@ -494,17 +516,21 @@ hr {
         font-size: 0.8em;
         white-space: nowrap;
     }
+
     #home nav ul li:hover {
         background-color: #e7e7e7;
     }
+
     #home nav ul li a:hover {
         margin: 0;
         padding: 0;
         border-radius: 0;
     }
+
     #menu ul li a:hover {
         color: #0e5813;
     }
+
     #home-logo {
         display: block;
         margin-top: 0;
@@ -514,57 +540,68 @@ hr {
         max-width: 450px;
         padding-bottom: 10%;
     }
+
     .large {
         display: none;
     }
+
     #about {
         padding: 5%;
         box-shadow: 0 -10px 20px, 0 10px 10px;
     }
+
     #about h2 {
         margin-top: 0%;
     }
+
     #about-home {
         width: 40%;
         float: right;
     }
+
     #main-contanct {
         padding-top: 0;
     }
+
     .inside-images-large-screens {
         border: 5px solid transparent;
         border-image: url('../img/sand.png') 27;
         box-shadow: 0 -10px 20px, 0 10px 10px;
         width: 100%;
         display: inline;
-
     }
+
     #images-home {
         float: left;
         width: 50%;
     }
+
     footer {
         clear: both;
         padding: 12% 0 2% 0;
         text-align: left;
         margin-top: 0;
     }
+
     footer img {
         display: inline;
         float: left;
         width: 35%;
         margin-left: 10%;
     }
+
     footer nav {
         padding-top: 0;
         width: 40%;
         float: right;
     }
+
     footer nav ul {
         margin: 0;
         background-color: #0e5813;
         padding: 2% 0;
     }
+
     footer nav ul li {
         margin: 0;
         display: block;
@@ -573,14 +610,17 @@ hr {
         white-space: nowrap;
         width: 50%;
     }
+
     footer nav ul li:hover {
         background-color: #e7e7e7;
     }
+
     footer nav ul li a:hover {
         margin: 0;
         padding: 0;
         border-radius: 0;
     }
+
     footer p {
         padding-top: 5%;
         clear: both;
@@ -598,20 +638,25 @@ hr {
         padding: 1% 1% 0%;
         display: inline;
     }
+
     #hamburger {
         width: 4%;
         margin: 1% 5% 0;
     }
+
     #main-pages {
         background: -webkit-linear-gradient(left, #e7e7e7 37%, #0e5813 79%);
     }
+
     #contact {
         padding: 1% 20%;
         border: none;
     }
+
     #contact-logo {
         display: none;
     }
+
     #contact h2 {
         margin-top: 0;
         font-size: 1.8em;
@@ -621,6 +666,7 @@ hr {
         width: 50%;
         float: left;
     }
+
     #contact-right {
         width: 50%;
         float: right;
@@ -631,9 +677,11 @@ hr {
     #events {
         border: 0;
     }
+
     #events h2 {
         font-size: 2.5em;
     }
+
     .coming-events {
         width: 50%;
         float: left;
@@ -647,6 +695,7 @@ hr {
     #promos h2 {
         font-size: 1.8em;
     }
+
     .promotion-img {
         display: block;
         float: left;
@@ -654,6 +703,7 @@ hr {
         margin-left: auto;
         margin-right: auto;
     }
+
     .promotion-img li {
         padding-top: 5%;
     }
@@ -670,6 +720,7 @@ hr {
     #awards {
         border: 0;
     }
+
     #awards h2 {
         font-size: 1.8em;
     }
@@ -681,11 +732,17 @@ hr {
 
     #awards ul {
         text-align: center;
-        margin: 10%;
     }
+
     #awards ul li {
         padding: 3% 0 0 0;
         font-size: 1.3em;
+        display: inline;
+    }
+
+    figure:nth-child(2n+0) {
+        background-color: #d0d0d0;
+        border-radius: 7px;
     }
 
     /* ----------------------- Menu page-------------- */
