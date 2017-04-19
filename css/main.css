@@ -675,10 +675,7 @@ hr {
     }
 
     #awards img {
-        width: 30%;
-        border: 0;
-        box-shadow: 0 0 0;
-        float: left;
+        width: 16%;
         padding: 0;
     }
 
@@ -687,7 +684,7 @@ hr {
         margin: 10%;
     }
     #awards ul li {
-        padding: 8% 0 0 0;
+        padding: 3% 0 0 0;
         font-size: 1.3em;
     }
 
